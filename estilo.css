@@ -6,27 +6,29 @@ body{
 
 h1, h2 {
     color: red;
+    font-style: italic;
 }
 
 header{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 150px;
     border: dashed red 3px;
 }
 
 nav{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 aside{
     position: absolute;
     left: 0;
     height: 70vh;
-    width: 300px;
+    width: 250px;
     background-color: grey;
+    padding: 10px;
 }
 
 section{
@@ -37,13 +39,65 @@ section{
 
 footer{
     position: relative;
-    left: 300px;
+    left: 450px;
+    height: 50px;
 }
 
 button{
     border: solid red 1px;
     background-color: grey;
     text-transform: uppercase;
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 10px;
+    margin: 0px 10px;
 }
+
+img{
+    margin: 0 20px;
+    border-radius: 25%;
+    border: solid red 1px; 
+}
+
+p{
+    margin: 20px 0;
+}
+
+.verde{
+    color: green;
+}
+
+.vermelho{
+    color: red;
+}
+
+.amarelo{
+    color: yellow;
+}
+
+#diferentao{
+    height: 225px;
+    width: 225px;
+}
+/*
+p:nth-child(5){
+    margin-bottom: 20px;
+}
+
+p:nth-child(6){
+    margin-bottom: 30px;
+}
+
+a:first-child{
+    height: 100px;
+    width: 100px;
+}
+
+css{
+    display: block;
+}
+
+.junto{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}/*
